@@ -55,4 +55,5 @@ def turn(board)
       puts "That's invalid!"
       turn(board)
     end
+  display_board(board)
 end
