@@ -53,5 +53,6 @@ def turn(board)
       move(board, index_number, "X")
     else
       puts "That's invalid!"
+      turn(board)
     end
 end
