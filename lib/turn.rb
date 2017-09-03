@@ -52,7 +52,7 @@ def turn(board)
     if valid_move?(board, index_number) == true
       move(board, index_number, "X")
     else
-      until valid_move?(board, index_number) == true
+      until valid_move?(board, input_to_index(user_input) == true
         turn(board)
       end
     end
