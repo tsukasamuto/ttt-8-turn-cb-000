@@ -51,9 +51,9 @@ def turn(board)
   index_number = input_to_index(user_input)
     if valid_move?(board, index_number) == true
       move(board, index_number, "X")
+      display_board(board)
     else
       puts "That's invalid!"
       turn(board)
     end
-  display_board(board)
 end
